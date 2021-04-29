@@ -51,13 +51,28 @@
             </li>
         </ul>
     </nav>
-    <main>
-        <p class="error-code">
-            502
-        </p>
-        <P class="not-working">
-            Opps Webpage is Down right now....!!!
-        </P>
+    <main class="signup-page">
+        <h1 class="signup-title">Awesome! Let's dive right in!</h1>
+        <form action="index.html" class="signup-form">
+            <label for="title">Title</label>
+            <select id="title ">
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+            </select>
+            <label for="first-name">First name</label>
+            <input type="text" placeholder="Enter your first name" id="first-name">
+            <label for="last-name">Last name</label>
+            <input type="text" placeholder="Enter your last name" id="last-name">
+            <label for="email">E-Mail</label>
+            <input type="email" placeholder="example@xy.com" id="email">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+            <input type="checkbox" id="agree-terms">
+            <label for="agree-terms">Agree to
+                <a href="#">Terms &amp; Conditions</a>
+            </label>
+            <button type="submit" class="button">Sign Up</button>
+        </form>
     </main>
     <footer class="main-footer">
         <nav>
