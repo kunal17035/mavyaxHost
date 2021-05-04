@@ -52,15 +52,15 @@
     background: red;
     border-radius: 50px;
     position: absolute;
-    right: 0;
+    right: 10px;
     margin: 1.2rem;
-    top: 0;
+    top: 100px;
     padding: 0.5rem;
     font-size: 1rem;
 }
 
 #plus {
-    margin-top: 6rem;
+    margin-top: 2rem;
     background-image: url("../images/procreator-ux-design-studio-VzJjPuk53sk-unsplash.jpg");
     
 }
@@ -122,6 +122,15 @@
         -moz-border-radius: 12px;
         -ms-border-radius: 12px;
         -o-border-radius: 12px;
+    }
+
+    .package-badge {
+        position: absolute;
+        right: 100px;
+        margin: 1.2rem;
+        top: 200px;
+        padding: 0.5rem;
+        font-size: 1rem;
     }
 
     #plus {
