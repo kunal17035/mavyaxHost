@@ -53,85 +53,157 @@
     margin: auto;
     width: 80%;
     text-align: center;
-    ;
 }
 
 .plan {
     background: #1eaef7;
+    background-image: url("../images/Students.png");
     text-align: center;
     padding: 1rem;
     margin-bottom: 2rem;
     width: 100%;
+    color:white;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-@media(min-width:40rem) and (orientation:landscape) {
-    .plan {
-        text-align: center;
-        padding: 1rem;
-        margin: 0.5rem;
-        display: inline-block;
-        width: 30%;
-        vertical-align: middle;
-        margin: 0.5rem;
-        min-width: 13rem;
-        max-width: 30rem;
-    }
+#premium{
+    background-image: url("../images/MNC-in-India.jpg");
 }
 
 .plan__title {
+    padding:0.2rem 1rem;
+    background-color: #27ceec;
+    text-align: center;
+    font-size: 1.5rem;
     color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .plan__price {
-    color: rgb(90, 90, 90);
+    margin-top:50px;
+    font-size:bold;
+    color: rgb(255, 254, 254);
 }
 
 .plan--highlighted {
     background: rgb(19, 70, 207);
+    background-image: url("../images/top-developers.jpg");
     color: white;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.6);
 }
 
-.plan--highlighted .button {
-    background: rgb(77, 159, 236);
-    border: 1.5px solid rgb(77, 159, 236);
-}
-
-.plan--highlighted button:hover,
-.plan--highlighted .button:active {
-    border: 1.5px solid rgb(77, 159, 236);
-    color: rgb(77, 159, 236);
-    background: white;
-}
-
 .plan__annotation {
+    position: absolute;
+    right: 30px;
+    margin-top:-20px;
+    font-size:0.8rem;
     background: #d81640;
-    padding: 0.5rem;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 0.2rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-.plan--highlighted .plan__title {
-    color: #089ee9
+.plan h3{
+    padding:0.3rem 1rem;
+    background-color:rgba(0, 0, 0, 0.3);
 }
-
-.plan--highlighted .plan__price {
-    color: rgb(204, 188, 188);
-}
-
 .plan__features {
     list-style: none;
     margin: 0;
     padding: 0;
+    font-size:1rem;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 .plan__feature {
     margin: 0.5rem 0;
+}
+
+@media(min-width:40rem) and (orientation:landscape) {
+    .plan__list {
+        margin: auto;
+        width: 90%;
+    }
+
+    .plan {
+        background-size: 100%;
+        background-position: top 20% left 10%;
+        height: 490px;
+        background-repeat: no-repeat;
+        text-align: right;
+        padding: 3rem;
+        margin: 0.5rem;
+        vertical-align: middle;
+        margin: 0.5rem;
+        /* min-width: 13rem;
+        max-width: 30rem; */
+        margin-bottom: 50px;
+    }
+
+    .plan__title {
+        margin-left: -70px;
+        padding: 0.6rem 2rem;
+        background-color: #27ceec;
+        position: absolute;
+        text-align: left;
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .plan__price {
+        margin-top: 50px;
+        font-size: bold;
+        color: rgb(255, 254, 254);
+    }
+
+    .plan--highlighted {
+        background: rgb(19, 70, 207);
+        background-image: url("../images/top-developers.jpg");
+        color: white;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    .plan__annotation {
+        background: #d81640;
+        position: relative;
+        left: 1000px;
+        width: 20%;
+        text-align: center;
+        margin-top: -50px;
+        padding: 0.5rem;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .plan h3 {
+        font-size: 2rem;
+        text-decoration: underline;
+        color: white;
+        padding: 0.5rem 1rem;
+        text-align: left;
+        width: 60%;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: -30px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .plan__features {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+
+    .plan__feature {
+        margin: 0.5rem 0;
+    }
 }
 
 #key-features {
