@@ -65,6 +65,10 @@
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
+#free{
+    background-position: top 20% left 15%;
+}
+
 #premium{
     background-image: url("../images/MNC-in-India.jpg");
 }
@@ -129,7 +133,6 @@
         background-size: 100%;
         background-position: top 20% left 10%;
         height: 490px;
-        background-repeat: no-repeat;
         text-align: right;
         padding: 3rem;
         margin: 0.5rem;
@@ -139,7 +142,9 @@
         max-width: 30rem; */
         margin-bottom: 50px;
     }
-
+    #free{
+        background-repeat: no-repeat;
+    }
     .plan__title {
         margin-left: -70px;
         padding: 0.6rem 2rem;
@@ -160,6 +165,8 @@
     .plan--highlighted {
         background: rgb(19, 70, 207);
         background-image: url("../images/top-developers.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
         color: white;
         box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.6);
     }
