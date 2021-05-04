@@ -31,7 +31,7 @@ main {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #5a5c5e;
+    background: black;
     padding: 0.5rem 1rem;
     z-index: 100;
 }
@@ -155,7 +155,7 @@ main {
 }
 
 .main-footer {
-    background: #5a5c5e;
+    background: black;
     margin: 0;
     padding: 2rem;
     padding-bottom: 1.3rem;
