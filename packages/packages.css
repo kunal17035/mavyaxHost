@@ -106,6 +106,7 @@
 
     .package-subtitle {
         color: white;
+        margin: 0;
         background-color: rgba(37, 194, 233, 0.5);
         padding: 1rem;
         width: 50%;
