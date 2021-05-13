@@ -92,7 +92,8 @@
     padding:3rem;
     padding-bottom: 1.3rem;
     font-family: 'Marck Script',cursive;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 .quote-block__name{
